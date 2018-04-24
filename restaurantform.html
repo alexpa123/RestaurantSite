@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Alex's Cereal Shack</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="C:\Users\Alex\Documents\Portfolio\restaurant\restaurantStyles.css">
+	</head>
+<div class='backgroundColor'>
+		<body>
+			<h1 class='header'>Alex's Cereal Shack</h1>
+<hr />
+<ul class="nav nav-pills">
+		<li class="nav-item">
+			<a class="nav-link active" href="restaurantHome.html" target="_blank"><i class="fa fa-home"></i> Home</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link active" href="menu.html" target="_blank">Menu</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link active" href="restaurantform.html" target="_blank">Contact Us</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link active" href="restaurantCheckOut.html" target="_blank">Check Out</a>
+		</li>
+	</ul>
+<hr />
+<div class="form">
+	<form action="submit.html" method="POST">
+			<label for="Name" class='requiredField'> Name: </label><input type="text" name="name" class='inputBox'> <br />
+			<label for='Email' class='requiredField'>Email: </label><input type="email" name="email" class='inputBox'> <br />
+			<label for='Phone' class='requiredField'>Phone: </label><input type="number" name="number" class='inputBox'> <br />
+			Reason for Inquiry:
+				<select>
+					<option value="Catering (default)">Catering (default)</option>
+					<option value="Private Party">Private Party</option>
+					<option value="Feedback">Feedback</option>
+					<option value="Other">Other</option>
+				</select>
+				<br />
+			
+			Have you been to the restaurant? 
+			<input type="radio" name="answer" value="yes"/>Yes
+			<input type="radio" name="answer" value="no"/>No
+			<br/>
+			Best days to contact you:
+			<input type="checkbox" name="myDays" value="M"/>M
+			<input type="checkbox" name="myDays" value="T"/>T
+			<input type="checkbox" name="myDays" value="W"/>W
+			<input type="checkbox" name="myDays" value="T"/>Th
+			<input type="checkbox" name="myDays" value="F"/>F 
+			<br/>
+			Additional Information: 
+			<textarea></textarea> 
+			<br />
+			<input type="submit"/>
+	</form>
+</div>	
+		</body>
+<hr/>
+	<footer class='footer'>
+		<p>6524 Cereal Dr, Louisville, Kentucky, 40245</p>
+		<p>502-513-4190</p>
+	</footer>
+</div>
+	
+</html>

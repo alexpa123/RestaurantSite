@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Alex's Cereal Shack</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="C:\Users\Alex\Documents\Portfolio\restaurant\restaurantStyles.css">
+	</head>
+<div class='backgroundColor'>
+<body>
+		<h1 class='header'>Alex's Cereal Shack</h1>
+<hr />
+<ul class="nav nav-pills">
+		<li class="nav-item">
+			<a class="nav-link active" href="restaurantHome.html" target="_blank"><i class="fa fa-home"></i> Home</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link active" href="menu.html" target="_blank">Menu</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link active" href="restaurantform.html" target="_blank">Contact Us</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link active" href="restaurantCheckOut.html" target="_blank">Check Out</a>
+		</li>
+	</ul>
+<hr />
+<div class="container">
+		<div class="row">
+		  <div class="col-sm">
+				<h2>All You Can Eat Cereal!</h2>
+				<p>Combine any cereal, fruit, and milk for one low price!</p>
+				<p>$4.99</p>
+				<button type="button" class="btn btn-secondary" onclick="addMealToCart('Cereal Buffet', 4.99, 1)">Add to Cart</button>
+		  </br>
+				<h2>Breakfast Deluxe</h2>
+				<p>Farm fresh scrambled eggs, your choice of sausage or ham, 2 buttermilk biscuits, and 3 pancakes. This will send you home stuffed!</p>
+				<p>$7.99</p>
+				<button type="button" class="btn btn-secondary" onclick="addMealToCart('Breakfast Deluxe', 7.99, 1)">Add to Cart</button>
+		  </div>
+		  <div class="col-sm">
+				<h2>Chicken and Biscuits</h2>
+				<p>$6.99</p>
+				<p>Try our sweet buttery milk biscuits with fried chicken breast, a local favorite!</p>
+				<button type="button" class="btn btn-secondary" onclick="addMealToCart('Chicken and Biscuits', 6.99, 1)">Add to Cart</button>
+			</br>
+				<h2>Endless Pancakes</h2>
+				<p>Can you eat 30 pancakes? If so, ask about our pancake competition!</p>
+				<p>$7.99</p>
+				<button type="button" class="btn btn-secondary" onclick="addMealToCart('Endless Pancakes', 7.99, 1)">Add to Cart</button>
+		  </div>
+		  <div class="col-sm">
+				<h2>Chicken and Waffles</h2>
+				<p>Our recipe straight from grandma's kitchen, you can't find better chicken and waffles made from scratch.</p>
+				<p>$6.99</p>
+				<button type="button" class="btn btn-secondary" onclick="addMealToCart('Chicken and Waffles', 6.99, 1)">Add to Cart</button>
+		  </br>
+				<h2>Jumbo Buffet</h2>
+				<p>Eat as much variety of any breakfast you want! </p>
+				<p>$9.99</p>
+				<button type="button" class="btn btn-secondary" onclick="addMealToCart('Jumbo Buffet', 9.99, 1)">Add to Cart</button>
+		  </div>
+		</div>
+	</div>
+<table class='table'>
+	<tbody>
+		<tr>
+			<td id='tableBeverages' colspan="2">
+			Beverages
+			</td>
+		</tr>
+		<tr>
+			<td>Coffee</td>
+			<td>$1.50</td>		
+		</tr>
+		<tr>
+			<td>Specialty Iced Coffee</td>
+			<td>$3.99</td>
+		</tr>
+		<tr>
+			<td>Milk</td>
+			<td>$1.99</td>
+		</tr>
+		<tr>
+			<td>Orange Juice</td>
+			<td>$1.99</td>
+		</tr>
+		<tr>
+			<td>Soda</td>
+			<td>$1.50</td>
+		</tr>
+
+	</tbody>
+
+</table>
+<ul id='displayCart'>
+
+</ul>
+<div id='checkout'>
+		<a class="btn btn-light" href="restaurantCheckOut.html" target="_blank">Check Out</a>
+		<button type="button" class="btn btn-secondary" onclick="clearMealCart()">Clear Cart</button>
+</div>
+<script src='restaurant.js'></script>
+</body>
+<hr/>
+<footer class='footer'>
+		<p>6524 Cereal Dr, Louisville, Kentucky, 40245</p>
+		<p>502-513-4190</p>
+</footer>
+</div>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

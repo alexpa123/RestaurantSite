@@ -1,0 +1,168 @@
+
+.menuColor,  {
+    background-color: rgb(
+        200,188,244);
+}
+
+body { 
+    background-color: rgb(46, 44, 46);
+    height: 100%;
+}
+
+tr:nth-child(even) {
+    background: white;
+    font-weight: bold;
+}
+
+tr:nth-child(odd) {
+    color: white;
+}
+
+.header, .footer {
+    text-align:center;
+    background-color: rgb(75, 79, 82);
+    font-weight: bold;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.jumbotronText {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.header {
+    font-family: Garamond;
+    
+}
+
+/*******Carousel*******/
+
+.carousel {
+    width: 70%;
+    margin:auto;
+    
+}
+
+.carouselImg {
+    width: auto;
+    height: 500px;
+    max-height: 500px;
+  }
+
+.caption {
+    color: white;
+    background-color:rgb(46, 44, 46);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    height: 10%;
+    background-color: black;
+}
+
+.navigation {
+    color: black;
+}
+
+.nav-item {
+    padding-right: 5px;
+}
+
+.nav-link active {
+    background-color: white;
+}
+
+.display-3 {
+    font-weight: bold;
+}
+
+.description {
+    display: block;
+    text-align: center;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2, p, li {
+    color: white;
+    font-family: inherit;
+}
+
+.container {
+    padding-bottom: 50px;
+}
+
+.table {
+    border-radius: 5px;
+    border-style: solid;
+    width: 65%;
+    margin: auto;
+    padding-top: 220px;
+   
+ 
+}
+
+td {
+    padding: 5px 30px 5px 0px;
+}
+
+
+#tableBeverages {
+    font-weight: bold;
+}
+
+#checkout {
+    padding: 50px 50px;
+    text-align: center;
+}
+
+.form {
+    width: 500px;
+    margin-left: 25%;
+    color: white;
+}
+
+.inputBox {
+    margin: auto;
+    width: 200px;
+    text-align: right;
+}
+
+.requiredField {
+    font-weight: bold;
+}
+
+a:link {
+    color: black;
+    font-weight: bold;
+}
+a:active {
+    color:black;
+}
+/* visited link */
+a:visited {
+    color:black;
+}
+
+/* mouse over link */
+a:hover {
+    color: maroon;
+
+/* selected link */
+
+
+
+
+
+
+
+
+
+
+form label {
+    font-weight: bold;
+}
