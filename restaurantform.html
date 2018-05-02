@@ -26,36 +26,64 @@
 	</ul>
 <hr />
 <div class="form">
-	<form action="submit.html" method="POST">
-			<label for="Name" class='requiredField'> Name: </label><input type="text" name="name" class='inputBox'> <br />
-			<label for='Email' class='requiredField'>Email: </label><input type="email" name="email" class='inputBox'> <br />
-			<label for='Phone' class='requiredField'>Phone: </label><input type="number" name="number" class='inputBox'> <br />
-			Reason for Inquiry:
-				<select>
+<div class="form-group row">
+  <label for="example-text-input" class="col-3 col-form-label">Name:</label>
+  <div class="col-9">
+    <input class="form-control requiredField" type="text"  id="example-text-input">
+  </div>
+</div>
+<div class="form-group row">
+  <label for="example-search-input" class="col-3 col-form-label">Email:</label>
+  <div class="col-9">
+    <input class="form-control requiredField" type="text" id="example-search-input">
+  </div>
+</div>
+<div class="form-group row">
+  <label for="example-tel-input" class="col-3 col-form-label">Phone:</label>
+  <div class="col-9">
+    <input class="form-control requiredField" type="tel" value="1-(555)-555-5555" id="example-tel-input">
+  </div>
+</div>
+
+<div class="form-group row">
+  <label for="example-tel-input" class="col-3 col-form-label">Reason for Inquiry:</label>
+  <div class="col-9">
+			<select>
 					<option value="Catering (default)">Catering (default)</option>
 					<option value="Private Party">Private Party</option>
 					<option value="Feedback">Feedback</option>
 					<option value="Other">Other</option>
 				</select>
-				<br />
-			
-			Have you been to the restaurant? 
-			<input type="radio" name="answer" value="yes"/>Yes
-			<input type="radio" name="answer" value="no"/>No
-			<br/>
-			Best days to contact you:
-			<input type="checkbox" name="myDays" value="M"/>M
-			<input type="checkbox" name="myDays" value="T"/>T
-			<input type="checkbox" name="myDays" value="W"/>W
-			<input type="checkbox" name="myDays" value="T"/>Th
-			<input type="checkbox" name="myDays" value="F"/>F 
-			<br/>
-			Additional Information: 
-			<textarea></textarea> 
-			<br />
-			<input type="submit"/>
-	</form>
-</div>	
+  </div>
+</div>
+
+<div class="form-group row">
+		<label for="example-tel-input" class="col-3 col-form-label">Additional Information:</label>
+		<div class="col-9">
+				<textarea class="form-control"></textarea> 
+		</div>
+	</div>
+
+<div class="form-group row">
+			<label for="example-tel-input" class="col-3 col-form-label">Have you ever been to the restaurant?:</label>
+			<div class="col-9 radioButtons">
+				<input type="radio" name="answer" value="yes"/>Yes
+				<input type="radio" name="answer" value="no"/>No
+			</div>
+</div>
+
+<div class="form-group row">
+		<label for="example-tel-input" class="col-3 col-form-label">Best days to contact you:</label>
+		<div class="col-9 radioButtons">
+				<input type="checkbox" name="myDays" value="M"/>M
+				<input type="checkbox" name="myDays" value="T"/>T
+				<input type="checkbox" name="myDays" value="W"/>W
+				<input type="checkbox" name="myDays" value="T"/>Th
+				<input type="checkbox" name="myDays" value="F"/>F 
+		</div>
+</div>
+</div>
+
 		</body>
 <hr/>
 	<footer class='footer'>
